@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+<style>
+body {
+  background-color: rgb(32, 34, 34);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#myVideo {
+  position:absolute ;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  background-attachment:fixed;
+  top: 138%;
+}
+
+.content {
+  position: absolute;
+  top: 138%;
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: -1%;
+  color: #f1f1f1;
+  width: 100%;
+  height:;
+  padding: 20px;
+}
+h1 {
+  color: white;
+  font-family: "Sofia", sans-serif;
+  font-size: 60px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  margin-top: 0%;
+  margin-left:  1%; ;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(195, 188, 188);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  font-size: 60px;
+ }
+ 
+ .menu {
+ font-size:30px;
+ cursor:pointer;
+ position:absolute;
+ right: 10px;
+ font-size: 35px;
+ color: aliceblue;
+ 
+ }
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+img {
+  
+  margin-left: 64%;
+  position: absolute;
+  margin-top: -1%;
+  margin-right: 0%;
+  height:101%;
+  
+  opacity: 0.5;
+}
+ 
+ 
+div.text1 {
+  position: absolute;
+  left: 140px;
+  top: 30%;
+  color: #f1f1f1;
+  font-family:"Sawarabi Mincho";
+  font-size: 30px;
+}
+
+div.text2{
+  position:absolute;
+  right: 18px;;
+  bottom:2%;
+  color: #f1f1f1;
+  font-family: ;
+  font-size: 10px;
+}
+
+div.text3 {
+  position: absolute;
+  left: 140px;
+  top: 50%;
+  color: #f1f1f1;
+  font-family:"Sawarabi Mincho";
+  font-size: 20px;
+}
+ div.text4 {
+  position:absolute;
+  color: white; 
+  top: 100%;
+  font-family: "Sawarabi Mincho";
+  margin-left: -1%;
+  margin-right: -1%;
+  text-align: center;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.8);
+  width: 101%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+ }
+
+ div.text5 {
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+  top: 1145px;
+
+ }
+/image card/
+ .container {
+  position: relative;
+  width: 25%;
+  top: 1250px;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius:20%;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    <section>
+<h1>fadly</h1>
+
+<img src="/Users/fadlyfauzan/Desktop/WhatsApp Image 2024-08-13 at 08.15.12.jpeg">
+
+
+
+
+<div class="text1">
+    ファドリーです<br>SMIでプログラミングの知識を身につけたいと思います<br>よろしくお願いいたします。
+</div>
+<div class="text2">
+    2023-4-15<br>20:56<br>東京都渋谷区
+</div>
+
+<div class="text3">
+    ダルマプルサダ大学<br>日本語学科<br>
+</div>
+    
+<div class="text4">
+    2023年私はインドネシアから日本の大学へ一年間留学する機会をいただきました。<br>留学を通して、多くの学び、そして多くの出会いがありました。
+</div>
+<div id="myNav" class="overlay" onmouseleave="closeNav()">
+  
+
+
+  <div class="overlay-content">
+    <a href="https://www.linkedin.com/in/fadly-fauzan-547824221?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B83BThvN%2FQ4q5rHiU4dNGCw%3D%3D">経歴</a>
+    <a href="shumi.html">趣味</a>
+    <a href="#"></a>
+    <a href="#"></a>
+  </div>
+</div>
+
+
+    
+<span class="menu" onmouseenter="openNav()">&#9776; </span>
+
+
+<video autoplay muted loop id="myVideo">
+    <source src="/Users/fadlyfauzan/Desktop/WhatsApp Video 2024-08-13 at 08.15.12.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  
+    <div class="container">
+        <img src=""><a href="" alt="Avatar" class="image">
+        
+        </div>
+      </div>
+
+<div class="text5">
+    Stories
+</div>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "20%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+    </section>
